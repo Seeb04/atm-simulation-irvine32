@@ -1,4 +1,4 @@
-INCLUDE c:\Users\humer\.vscode\extensions\istareatscreens.masm-runner-0.9.1\native\irvine\Irvine32.inc
+INCLUDE c:\Users\Haseeb\.vscode\extensions\istareatscreens.masm-runner-0.9.1\native\irvine\Irvine32.inc
 
 .data
     ;Account Data
@@ -85,7 +85,7 @@ main PROC
         cmp eax, 2 ; deposit
         je OpDeposit
         cmp eax, 3 ; withdraw
-        je OpWithdraw
+        je  OpWithdraw
         cmp eax, 4 ; change pin
         je OpChangePin
         cmp eax, 5 ; logout/exit
